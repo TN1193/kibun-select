@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>結果 | 気分転換セレクト</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">気分転換セレクト</a>
+
+    <nav class="nav">
+      <a href="index.html">ホーム</a>
+      <a href="select.html">条件で選ぶ</a>
+      <a href="category.html">ランダム</a>
+      <a href="result.html">結果</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section result-page">
+      <div class="section-title center-title">
+        <p class="eyebrow">結果</p>
+
+        <h2>今日の気分転換</h2>
+
+        <p>
+          選ばれた気分転換を、まずは気軽に試してみましょう。
+        </p>
+      </div>
+
+      <article class="result-card result-card-large">
+        <span class="card-label">Today's Refresh</span>
+
+        <h3 id="resultTitle">深呼吸を5回する</h3>
+
+        <p id="resultText">
+          ゆっくり息を吐くことで、短い時間でも気持ちを落ち着かせやすくなります。
+        </p>
+
+        <dl>
+          <div>
+            <dt>時間</dt>
+            <dd id="resultTime">5分</dd>
+          </div>
+
+          <div>
+            <dt>場所</dt>
+            <dd id="resultPlace">どちらでも</dd>
+          </div>
+
+          <div>
+            <dt>費用</dt>
+            <dd id="resultCost">0円</dd>
+          </div>
+        </dl>
+      </article>
+
+      <div class="feedback">
+        <p>少し気分は変わりましたか？</p>
+
+        <button type="button" data-message="よかったです。">
+          よくなった
+        </button>
+
+        <button type="button" data-message="少し変化がありました。無理なく続けてみましょう。">
+          少し変わった
+        </button>
+
+        <button type="button" data-message="もう一回選んでみましょう。">
+          まだ分からない
+        </button>
+
+        <span id="feedbackMessage" class="feedback-message"></span>
+      </div>
+
+      <div class="button-row center-buttons">
+        <a class="primary-button secondary-button" href="select.html">
+          もう一回選ぶ
+        </a>
+
+        <a class="primary-button secondary-button" href="category.html">
+          ランダムで選ぶ
+        </a>
+
+        <a class="primary-button secondary-button" href="index.html">
+          ホームへ戻る
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>気分転換を選べるWebサイト</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

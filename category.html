@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ランダムで選ぶ | 気分転換セレクト</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">気分転換セレクト</a>
+
+    <nav class="nav">
+      <a href="index.html">ホーム</a>
+      <a href="select.html">条件で選ぶ</a>
+      <a href="category.html">ランダム</a>
+      <a href="result.html">結果</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section random-page">
+      <div class="section-title center-title">
+        <p class="eyebrow">ランダム</p>
+
+        <h2>ランダムで気分転換を選ぶ</h2>
+
+        <p>
+         
+        </p>
+      </div>
+
+      <div class="random-layout">
+        <article class="result-card" id="resultCard">
+          <span class="card-label">Random Refresh</span>
+
+          <h3 id="resultTitle">深呼吸を5回する</h3>
+
+          <p id="resultText">
+            ゆっくり息を吐くことで、短い時間でも気持ちを落ち着かせやすくなります。
+          </p>
+
+          <dl>
+            <div>
+              <dt>時間</dt>
+              <dd id="resultTime">5分</dd>
+            </div>
+
+            <div>
+              <dt>場所</dt>
+              <dd id="resultPlace">どちらでも</dd>
+            </div>
+
+            <div>
+              <dt>費用</dt>
+              <dd id="resultCost">0円</dd>
+            </div>
+          </dl>
+        </article>
+
+        <div class="button-row center-buttons">
+          <button type="button" id="randomOnlyButton">
+            もう一回ランダムで選ぶ
+          </button>
+
+          <a class="primary-button secondary-button" href="result.html">
+            この結果を見る
+          </a>
+
+          <a class="primary-button secondary-button" href="index.html">
+            ホームへ戻る
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>気分転換を選べるWebサイト</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
